@@ -1,0 +1,69 @@
+.allcollabrators-main{
+    background-color: rgb(219, 213, 213);
+    width: 400px;
+    padding: 20px 0px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.allcollabrators-main h2{
+    text-align: center;
+    padding-bottom: 10px;
+    color: green;
+}
+.allcollabrators-main ul li{
+    list-style-type: none;
+    text-align: center;
+}
+.allcollabrators-main hr{
+    margin: auto;
+    width: 300px;
+    margin-bottom: 20px;
+}
+.page-collabrators{
+    background-image: url('../assets/forget-back.png');
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.page-collabrators div{
+    border: 1px solid white;
+    padding: 20px 150px;
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    color: white;
+    box-shadow: 2px 2px 20px black;
+}
+.page-collabrators div ul li{
+    text-align: center;
+    padding: 20px 0px;
+}
+.page-collabrators  h1{
+ text-shadow: 2px 2px 2px black;
+ text-align: center;
+ padding: 20px 0px;
+}
+
+@media screen and (max-width: 768px) {
+    .page-collabrators div{
+   width: 100%;
+   padding: 20px 10px;
+   margin: 0px 20px;
+    }
+    .page-collabrators div ul li{
+        padding: 20px 0px;        
+    }
+    .page-collabrators div ul{
+        padding: 0px 30px;        
+    }
+  }
+  @media screen and (max-width: 1024px) {
+    .allcollabrators-main{
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 2px;
+    }
+  }

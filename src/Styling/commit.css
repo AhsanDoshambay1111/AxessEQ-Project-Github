@@ -1,0 +1,71 @@
+.commits-main{
+    background-color:aliceblue;
+    min-height: 100vh;
+    padding: 100px 100px;
+}
+.commits-main h2{
+    color: #427BFF;
+    padding-bottom: 5px;
+    text-shadow: 1px 1px 1px black;
+}
+.commits-main hr{
+    background-color: #427BFF;
+    padding-bottom: 1px;
+    box-shadow: 1px 1px 2px white;
+    border-radius: 999px;
+    border: none;
+    margin: 20px 0px;
+}
+.commits-main ul li{
+    list-style-type: none;
+    color: gray;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+.commits-table{
+    border: 1px solid #427BFF;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px 10px 0px 0px;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-bottom: none;
+}
+.commits-msg{
+    padding-left: 10px;
+    color: black !important;
+    padding-right: 2px;
+}
+.verified{
+    margin-left: auto;
+    margin-right: 20px;
+    color: green;
+    border: 1px solid green;
+    height: 25px;
+    text-align: center;
+    padding: 2px 20px;
+    border-radius: 999px;
+}
+.br-commit{
+    display: none;
+}
+@media screen and (max-width: 1024px) {
+    .commits-main{
+        padding: 100px 10px;
+    }
+    .verified{
+        display: none;
+    }
+    .commits-main ul{
+        width: 100%;
+    }
+    .br-commit{
+        display: inline-block;
+    }
+  }
+  @media screen and (min-width: 500px) {
+    .verified{
+        display: inline-block;
+    }
+  }

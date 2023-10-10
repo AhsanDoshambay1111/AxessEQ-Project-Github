@@ -1,0 +1,33 @@
+.repository-section {
+    background-color: white; 
+    height: 100vh;
+    left: 0;
+    position: fixed;
+}
+
+.repo-front{
+background-color: red !important;
+width: 100%;
+}
+.home-container {
+    width: 100%;
+    background-color:aliceblue;
+    padding: 30px 0px;
+    padding-left: 0px;
+    height: auto;
+}
+@media screen and (max-width: 1150px) {
+    .repository-section {
+        background-color: #427BFF; 
+        height: 100vh;
+        left: 0;
+        position: static;       
+    }
+  }
+  @media screen and (min-width: 1150px) {
+    .home-container {
+        padding-left: 300px;    
+        padding-top: 0px;
+    }
+  }
+  

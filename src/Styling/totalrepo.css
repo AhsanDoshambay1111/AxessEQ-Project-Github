@@ -1,0 +1,45 @@
+.totalrepo-name{
+    width: 100% !important;
+    padding-top: 95px;
+    margin-right: 100px;
+    padding-bottom: 15px;
+    background-color: #427BFF;
+    box-shadow: 2px 2px white;
+}
+.totalrepo-container h2{
+    color: white;
+}
+.totalrepo-container p{
+    color: white;
+    padding-top: 5px;
+}
+.totalrepo-container h2 span{
+    padding-right: 10px;
+}
+.totalrepo-container{
+    display: flex !important;
+    justify-content: space-around;
+    text-shadow: 1px 1px black;
+}
+.totalrepo-container hr{
+    border: none;
+    width: 3px;
+    border-radius: 999px;
+    background-color: greenyellow;
+}
+
+@media screen and (max-width: 1024px) {
+    .totalrepo-container{
+        display: flex !important;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-shadow: 1px 1px black;
+    }
+    .totalrepo-name{
+        padding-top: 55px;
+        margin-right: 1px;padding-bottom: 20px;
+    }
+    .totalrepo-container hr{
+    margin: 0px 10px;
+    }
+  }

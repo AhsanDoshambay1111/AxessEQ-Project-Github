@@ -1,0 +1,59 @@
+.percentage-container {
+  width: 100%;
+  padding-top: 100px;
+  margin-bottom: auto;
+}
+.percentage-container h2 {
+  padding: 0px;
+  color: burlywood;
+  text-shadow: 1px 1px 1px brown;
+  padding-right: 20px;
+  margin: 10px 0px;
+}
+.percentage-container {
+  text-align: center;
+}
+.row-chart {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 30px; /* Adjust the height as needed */
+  /* Add borders or styling as desired */
+}
+.chart-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: white; /* Adjust the color as desired */
+  color: white; /* Adjust the text color as needed */
+  font-weight: bold;
+  border-radius: 999px;
+}
+.percentage-container div {
+  display: flex;
+  justify-content: center;
+}
+
+.languages-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+@media screen and (max-width: 1024px) {
+  .percentage-container {
+    padding-top: 30px;
+  }
+  .percentage-container h2 {
+    font-size: 15px;
+    text-align: center;
+  }
+  .languages-name {
+    gap: 1rem;
+  }
+  .pie-chart{
+    display: none !important;
+  }
+}

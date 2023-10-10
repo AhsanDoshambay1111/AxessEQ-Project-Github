@@ -1,0 +1,181 @@
+/* RepoFiles.css */
+.repo-files-container {
+    background-image: url('../assets/forget-back.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;  
+    background-attachment: fixed;
+    padding: 130px 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    min-height: 100vh;  
+  }
+  .header h3{
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    font-size: 20px;
+    padding-left: 10px;
+  }
+  .code-file2{
+    width: 300px;
+    backdrop-filter: blur(30px);
+    height: auto;
+    padding: 0px 30px;
+    border: 1px solid white;
+    border-radius: 10px;
+    position: fixed;
+    right: 30px;
+  }
+  .language-names{
+    margin: 10px 0px;
+    background-color: white;
+    border: 1px solid white;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 10px 50px;
+    color: black;
+    font-size: 14px;
+  }
+  .header{
+    width: 60%;
+  }
+  .folder-name{
+    color:white;
+  }
+  .language-names li::marker {
+    color: red;
+  }
+  .languages-p{
+    padding-top: 20px;
+    color: white;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px black;
+    }
+  .login-button li{
+    color: white;
+    list-style-type: circle;
+    padding-bottom: 100px;
+  }
+  .delete-content-button{
+    background-color: white;
+    color: red;
+    border: 1px solid white;
+    margin-top: 10px;
+    margin-right: 10px;
+    height: 43px;
+    margin-top: 30px;
+  }
+  .header {
+    margin-bottom: 20px;
+  }
+  .buttons-repofile{
+    display: flex;
+    justify-content: space-between;
+  }
+  .github-url-input {
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 16px;
+    border: 1px solid white;
+    border-radius: 4px;
+    color: white !important;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    border-radius: 999px;
+  }
+  .github-url-input::placeholder {
+    color: grey; 
+  }
+  .header div input:focus{
+   outline: none !important;
+  }
+  .import-button {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 0px 20px;
+    background-color: #28a745;
+    color: white;
+    height: 40px;
+    margin-left: 10px;
+    border: 1px solid #28a745;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .code-files-list {
+    list-style: none;
+    padding: 0;
+  }
+  .code-file-item {
+    width: 100%;
+  }
+  .code-file-link {
+    color: white;
+    text-decoration: none;
+  }
+  .hala{
+    width: 100% !important;
+    background-color: transparent;
+    border: 1px solid white;
+    margin: 10px 0px;
+    backdrop-filter: blur(10px);
+    padding: 10px 20px;
+    margin-top: 30px;
+    border-radius: 3px;
+    border-radius: 9px;
+    list-style-type: none;
+  }
+  .code-file-link:hover {
+  color: #0366d6;
+  }
+.trash:hover{
+  color: white;
+  padding-left: 5px;
+}
+.trash{
+  padding-left: 5px;
+}
+.file-img{
+  color: white;
+  padding-right: 10px;
+}
+.nocode-para{
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+.repofile-side{
+  background-color: white;
+  margin: 20px 0px;
+  border-radius: 99px;
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+.repofile-side a{
+  color: #0366d6;
+  padding-left: 10px;
+}
+.repofile-side a:hover{
+ color: gray;
+}
+.language-names li{
+ padding-top: 5px;
+ list-style-type: disc;
+}
+
+@media screen and (max-width: 1024px) {
+  .code-file2{
+    position: static;
+    right: 0px;
+    margin: auto;
+    width: 100%;
+  }
+  .repo-files-container {
+    flex-wrap: wrap;
+    padding: 130px 20px;    
+  }
+  .header{
+    width: 100%;
+  }
+
+}

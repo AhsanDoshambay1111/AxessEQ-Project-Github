@@ -1,0 +1,83 @@
+/* FileContentPage.css */
+.file-content-container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #427BFF;
+    padding: 140px 100px;
+    min-height: 100vh;
+  }
+  .filecontent-para{
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    font-size: 17px;
+    background-color: white;
+    margin-top: 20px;
+    color: grey;
+    border-radius: 5px;
+  }
+  .file-content-file{
+    color: grey;
+    text-shadow: 1px 1px 1px black;
+    padding-right: 10px;
+  }
+  .code-container {
+    background-color: rgb(211, 245, 161);
+    border: 1px solid #d1d5da;
+    border-radius: 6px;
+    box-shadow: 10px 10px 10px black !important;
+    padding: 16px;
+    overflow: auto;
+  }
+
+  /* Adjust the font and spacing to match GitHub's styling */
+  .code-container pre {
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    font-size: 14px;
+    line-height: 1.45;
+    margin: 0;
+  }
+  
+  /* Customize the syntax highlighting color */
+  .react-syntax-highlighter-line-number {
+    color: #6a737d;
+  }
+  
+  .react-syntax-highlighter-line-number::before {
+    content: "";
+  }
+  .file-copy{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  /* Add a shadow effect for the code container */
+  .code-container {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  .copy-button-container button{
+  width: 250px;
+  }
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    .file-content-container {
+      padding: 10px;
+      padding-top: 100px;
+      box-shadow: 1px 1px 1px none !important;
+    }
+    .copy-button-container button{
+      width: 150px;
+      margin: 0px 5px;
+      height: 40px;
+      }
+      .code-container{
+      box-shadow: 1px 1px 1px #427BFF !important;
+      }
+      .filecontent-para{
+        padding: 10px 20px;
+        font-size: 13px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+      }
+  }

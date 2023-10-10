@@ -1,0 +1,67 @@
+.security-main{
+    background-image: url('../assets/security-back.png');
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.security-main2{
+    width: 500px;
+    margin-top: 100px;
+    border: 1px solid white;
+    margin-bottom: 20px;;
+    border-radius: 10px;
+    padding: 20px 30px;
+}
+.security-head h2{
+    text-shadow: 2px 2px 2px black;
+}
+.security-qa{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.security-main2 input{
+backdrop-filter: blur(20px);
+width: 100%;
+border: 1px solid white !important;
+outline: none;
+padding: 10px;
+margin: 5px 0px;
+border-radius: 999px;
+background-color: transparent;
+}
+.security-head{
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+}
+.security-head .security-icon{
+   padding-right: 30px;
+   font-size: 20px;
+   text-shadow: 2px 2px 2px white;
+}
+.security-button button{
+width: 100%;
+border-radius: 999px;
+}
+.security-qa input{
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .security-main{
+        padding-top: 0px;
+        height: auto;
+    }
+    .security-head h2{
+        font-size: 15px;
+    }
+    .security-main2{
+    width: 100%;
+    border: none;
+}
+  }

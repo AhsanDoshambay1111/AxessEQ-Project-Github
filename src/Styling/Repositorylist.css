@@ -1,0 +1,52 @@
+.Repositorylist-maini{
+    background-color: #427BFF;
+    border: 1px solid white;
+    padding-top: 130px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 300px;
+    border-bottom: none;
+    border-left: none;
+    height: 100vh;
+    position: fixed;
+}
+.Repositorylist-maini h2{
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    text-shadow: 1px 1px 1px black;
+    padding-bottom: 10px;
+}
+.Repositorylist-maini ul li a{
+    color: #427BFF;
+    text-align: center;
+    font-size: 15px;
+    margin-right: auto;
+    text-decoration: none;
+}
+.Repositorylist-maini ul li{
+list-style-type: none;
+margin: 30px 0px;
+border-radius: 9999px;
+padding: 10px 20px;
+background-color: white;
+}
+.recent-icon{
+    font-size: 20px;
+    color: burlywood;
+    margin-left: auto;
+}
+.Repositorylist-maini ul li {
+    display: flex;
+}
+
+@media screen and (max-width: 1150px) {
+    .Repositorylist-maini{
+        width: 100vw;
+        height: auto;
+        padding-top: 100px;
+        padding-bottom: 20px;
+        position: sticky;
+    }
+  }
+  

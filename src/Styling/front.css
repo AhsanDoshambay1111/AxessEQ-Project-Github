@@ -1,0 +1,8 @@
+.total-percent{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0px; 
+    width: 100%;
+    justify-content: space-around;
+}

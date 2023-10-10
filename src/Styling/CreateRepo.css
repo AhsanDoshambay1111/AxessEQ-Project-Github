@@ -1,0 +1,143 @@
+.create-repo-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../assets/login-back.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  padding-top: 100px;
+  height: 100vh;
+}
+
+.create-logo {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.create-logo img {
+  width: 140px;
+  margin-bottom: auto;
+}
+
+.create-repo-container {
+  width: 550px;
+  margin: 0 auto;
+  padding: 20px;
+  margin: 0px 10px;
+  border: 3px solid white;
+  border-radius: 8px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+}
+
+.create-repo-container h2 {
+  margin-bottom: 2rem;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+}
+
+.form-group {
+  gap: 1rem;
+  margin-bottom: 15px;
+}
+
+#form-group {
+  display: flex;
+  justify-content: center;
+}
+
+.form-group label {
+  color: white;
+  padding-left: 10px;
+  text-shadow: 2px 2px 2px black;
+}
+
+.form-group input {
+  color: white;
+}
+
+.form-group input {
+  padding: 4px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  outline: none;
+  transition: 0.5s ease-in-out;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 99px;
+  background-color: transparent;
+  width: 100%;
+}
+
+button {
+  background-color: white;
+  transition: 0.5s ease-in-out;
+  color: black;
+  padding: 10px 20px;
+  border: 1px solid white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.message {
+  margin-top: 10px;
+  color: red;
+  font-size: 14px;
+}
+
+.form-group input:focus {
+  outline: none;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+button:hover {
+  background-color: #007bff;
+  color: white;
+  border: 1px solid white;
+}
+
+textarea {
+  width: 11rem;
+  transition: 0.5s ease-in-out;
+  padding: 10px;
+  background-color: transparent;
+  border: 1px solid #ccc;
+  resize: none;
+  margin-top: 10px;
+  border-radius: 20px;
+  width: 100%;
+  color: white;
+  height: 140px;
+}
+
+@media screen and (max-width: 768px) {
+  .create-repo-container {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .create-repo-container h2 {
+    font-size: 15px;
+  }
+  input {
+    width: 100%;
+  }
+  .create-repo-container h2 {
+   font-size: 14px;
+  }
+.create-logo img {
+  width: 100px;
+}
+}
+
+@media screen and (min-width: 768px) {
+.create-repo-main {
+  padding-bottom: 20px;
+}
+}

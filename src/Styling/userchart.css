@@ -1,0 +1,66 @@
+.userchart-main {
+    background-image: url('../assets/login-back.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+    padding-left: 300px;
+}
+
+.userchart-main2 {
+    border: 1px solid white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+}
+
+.chart-select {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+.chart-select h1 {
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+.chart-select select {
+    height: 30px;
+    margin-top: auto;
+    padding: 0px 20px;
+    border-radius: 5px;
+    background-color: #427BFF;
+    color: white;
+    border: 1px solid white;
+    width: 200px;
+    margin-bottom: auto;
+}
+.user-chart{
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 10px;
+    padding: 20px 0px;
+    height: auto !important;
+    width: 100% !important;
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow-x: auto; /* Enable horizontal scrolling */
+}
+.user-chart2{
+    padding: 100px;
+}
+@media screen and (max-width: 1150px) {
+    .userchart-main {
+        padding-left: 0px;
+    }
+    .userchart-main {
+        justify-content: flex-end !important;
+    
+    }
+  }
+  

@@ -1,0 +1,68 @@
+/* HeroSection.css */
+.hero-section {
+  /* background-image: url('../assets/AxessEQ\ Logo.png'); */
+background-image: url('../assets/contact-2.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content {
+  text-align: center;
+  color: #ffffff;
+}
+.hero-content img{
+  width: 40rem;
+}
+.hero-content h1 {
+  font-size: 3rem;
+  text-shadow: 10px 10px 40px orange;
+  margin-bottom: 1rem;
+}
+
+.hero-content p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  text-shadow: 10px 10px 40px orange;
+}
+
+.cta-button {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  background-color: #28a745;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  box-shadow: 10px 10px 40px black;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+  border: 1px solid #28a745;
+}
+.cta-button:hover {
+background-color: white;
+border: 1px solid black;
+color: #28a745;
+}
+
+@media screen and (max-width: 768px) {
+  .hero-content img{
+    width: 15rem;
+  }
+  .hero-content h1 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+/* HeroSection.css */
+.hero-section {
+padding: 0px 10px;
+}
+/* HeroSection.css */
+.hero-section {
+padding-top: 0px;
+}
+}

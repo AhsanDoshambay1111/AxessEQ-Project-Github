@@ -1,0 +1,43 @@
+.AllCodeFrequency-main {
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+    background-color:aliceblue;
+    width: 100%;
+    padding-left: 300px;
+}
+.AllCodeFrequency-main2 {
+    margin: auto !important;
+    padding: 100px 0px !important;
+    background-color:aliceblue;
+    min-height: 100vh;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+.AllCodeFrequency-main2 hr{
+    background-color: greenyellow;
+    height: 3px;
+    border-radius: 999px;
+    width: 150px;
+    margin-top: 10px !important;
+    margin: auto;
+}
+
+
+@media screen and (max-width: 768px) {
+    .AllCodeFrequency-main2 {
+       padding-top: 100px !important;
+    }
+    .code-frequencychart{
+        width: 100% !important;
+    }
+  }
+  @media screen and (max-width: 1150px) {
+    .AllCodeFrequency-main{
+        padding-left: 0px;
+        overflow: hidden;
+    }
+  }
+  
